@@ -15,7 +15,7 @@ public class Main {
 
         Kirjanpito kirjanpito = (Kirjanpito) ctx.getBean("kirjanpito");
         Kauppa kauppa = (Kauppa) ctx.getBean("kauppa");
-
+        
 //        Kirjanpito kirjanpito = new Kirjanpito();
 //        Varasto varasto = new Varasto(kirjanpito);
 //        Pankki pankki = new Pankki(kirjanpito);
